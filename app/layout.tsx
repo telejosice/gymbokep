@@ -7,7 +7,7 @@ import { SITENAME } from "@/lib/constants";
 const font = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: `${SITENAME} - Video Bokep Indo Viral Terbaru`,
+    title: `${SITENAME} - Video Bokep Indo Jepang Barat Viral Terbaru`,
     description: `${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma korea china tante live paksa ngentot abg cewek pelajar.`,
     metadataBase: new URL("https://gymbokep.pages.dev"),
     alternates: {
@@ -46,17 +46,6 @@ export default function RootLayout({
             },
             "foundingDate":"2024-10-12"
         }
-        const jsonLd1 = {
-            "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": `${SITENAME}`,
-        "url": "https://gymbokep.pages.dev",
-        "description": `${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma korea china tante live paksa ngentot abg cewek pelajar.`,
-        "image": "https://gymbokep.pages.dev/favicon.ico",
-        "potentialAction":{
-            "@type":"ReadAction",
-            "target":"https://gymbokep.pages.dev"}
-        }
         const jsonLd2 = {
             "@context": "https://schema.org",
         "@type": "WebSite",
@@ -80,10 +69,6 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd1) }}
         />
         <script
           type="application/ld+json"
